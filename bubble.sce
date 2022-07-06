@@ -4,22 +4,13 @@ origin = zeros(size(1),size(2));
 order = zeros(size(1),size(2));
 aux = 0;
 
-function Print(array)
-    for i = 1:size(1)
-        for j = 1:size(2)
-            mprintf('%d\t',origin(i,j));
-        end
-        mprintf('\n');
-    end
-endfunction
-
 mprintf("\tOrdenar matriz\nMatriz original:\n");
 for i = 1:size(1)
     for j = 1:size(2)
         origin(i,j) = rand()*1000;
     end
 end
-Print(origin);
+disp(origin);
 
 mprintf("\nMatriz ordenada:\n");
 for i = 1:size(1)
@@ -35,4 +26,4 @@ for i = 1:size(1)
         end
     end
 end
-Print(origin);
+disp(origin);
