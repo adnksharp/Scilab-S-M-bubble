@@ -5,7 +5,7 @@ Uso del metodo de burbuja para ordenar matrices mediante 4 bucles anidados para 
 - Si el valor analizado $n_i$ es menor que $n_{i-1}$, los cambiamos de lugar.
 
 ```Octave
-exec ('test.sci', -1)
+exec ('bubble.sci', -1)
 
 --> my = [12,31,98,78,90;09,1,121,144,88;12,98,98,77,6]
  my  =
